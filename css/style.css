@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400);
+
 * {
   margin: 0;
   padding: 0;
@@ -50,10 +52,15 @@ a:visited {
   text-align: center;
 }
 
+.navbar {
+  border-radius: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
 .tagline {
   font-size: 19px;
   margin-top: 10px;
   color: #9D9C9C;
   font-weight: lighter;
 }
-
