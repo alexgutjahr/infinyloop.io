@@ -2,14 +2,64 @@
 <html lang="en">
   <head>
     <title>infinyloop.io</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link href='css/style.css' rel='stylesheet' type='text/css'>
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="css/bulma.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <div id="container">
-      <div class="logo">
-        <img src="img/logo.png">
+    <nav class="nav">
+      <div class="nav-center">
+        <a class="nav-item" href="https://github.com/infinyloop">
+          <span class="icon">
+            <i class="fa fa-github"></i>
+          </span>
+        </a>
+        <a class="nav-item" href="https://twitter.com/alexhanschke">
+          <span class="icon">
+            <i class="fa fa-twitter"></i>
+          </span>
+        </a>
       </div>
-    </div>
+    </nav>
+    <section class="hero">
+      <div class="hero-body">
+        <div class="container">
+          <h1 class="title">
+            <img src="img/logo.png">
+          </h1>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="heading">
+          <h1 class="title">Projects</h1>
+        </div>
+        <hr>
+        <div class="content">
+          <div class="columns">
+            <div class="column is-one-quarter">
+              <div class="card">
+                <div class="card-content">
+                  <div class="media">
+                    <div class="media-left">
+                      <figure class="image is-32x32">
+                        <img src="img/highrise-logo.png" alt="Highrise Logo">
+                      </figure>
+                    </div>
+                    <div class="media-content">
+                      <p class="title is-5"><strong><a href="https://github.com/infinyloop/highrise-kotlin">highrise-kotlin</a></strong></p>
+                    </div>
+                  </div>
+                  <div class="content">
+                    Kotlin bindings for the Highrise API
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
